@@ -92,7 +92,8 @@ header div {
 }
 
 #about,
-footer {
+footer,
+#Collab {
 
     padding-top: 5vh;
     width: 100vw;
@@ -107,7 +108,7 @@ footer {
 
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 10vh;
     color: black;
     text-align: justify;
@@ -116,12 +117,14 @@ p {
 }
 
 #about i,
-footer i {
+footer i,
+#Collab i {
     width: 100%;
     font-size: 50px;
 }
 
-#about span {
+#about span,
+#Collab span {
     padding-top: 1vh;
     display: block;
 }

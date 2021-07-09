@@ -1,0 +1,161 @@
+header::before {
+    background: url(chess-1215079_1920.jpg);
+    background-size: cover;
+
+
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    background-size: 100% 100%;
+    position: absolute;
+
+    left: 0px;
+
+}
+
+/*
+#about::before {
+    background: url(blur-1850919_640.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    background-size: 100% 100%;
+    position: absolute;
+    opacity: 0.1;
+
+}
+*/
+header {
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    flex-wrap: wrap;
+    flex: 1 100%;
+    width: 100%;
+
+    z-index: 5;
+    height: 100%;
+}
+
+
+
+header div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    z-index: 5;
+    background-color: white;
+
+}
+
+#tren {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 10px solid black;
+    z-index: 5;
+    background-color: white;
+}
+
+#firstkrok {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    color: black;
+    z-index: 10;
+    font-size: 60px;
+}
+
+#sekrok {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+
+    color: black;
+    z-index: 10;
+    font-size: 60px;
+}
+
+#about,
+footer {
+
+    padding-top: 5vh;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    margin-top: 5vh;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 10vh;
+    color: black;
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#about i,
+footer i {
+    width: 100%;
+    font-size: 50px;
+}
+
+#about span {
+    padding-top: 1vh;
+    display: block;
+}
+
+footer span {
+    padding-top: 1vh;
+    display: block;
+}
+
+ul {
+    padding-top: 2vh;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+
+ul li {
+    padding-top: 1vh;
+    width: 50%;
+    font-size: 20px;
+
+}
+
+
+@keyframes rot {
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+
+}
